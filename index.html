@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="javascript.js"></script>
+    <title>FASHION SHOP</title>
+  </head>
+  <body>
+    <div class="big-container">
+      <div class="container1">
+        <form>
+          <p>
+            <label>
+              The product's image:
+              <input
+                type="text"
+                id="img"
+                placeholder="The product's image URL"
+              />
+            </label>
+          </p>
+          <p>
+            <label>
+              Product name:
+              <input type="text" id="pn" placeholder="Enter product name" />
+            </label>
+          </p>
+          <p>
+            <label>
+              Product code:
+              <input type="text" id="code" placeholder="Enter product code" />
+            </label>
+          </p>
+          <p>
+            <label>
+              New price (vnd):
+              <input type="text" id="np" placeholder="Enter new price" />
+            </label>
+          </p>
+          <p>
+            <label>
+              Old price (vnd):
+              <input type="text" id="op" placeholder="Enter old price" />
+            </label>
+          </p>
+          <button type="button" onclick="add()">Add Product</button>
+        </form>
+      </div>
+      <div class="container2"></div>
+    </div>
+  </body>
+</html>
